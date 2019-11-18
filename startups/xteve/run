@@ -1,6 +1,6 @@
 #!/bin/sh
 
-### Start Privoxy
+### Start xteve
 
 sleep 10
 
@@ -10,4 +10,4 @@ gw=$(ip route | awk '/default/ {print $3}')
 ip route add to ${LOCAL_NET} via $gw dev eth0
 
 # start
-privoxy --no-daemon
+xteve -port=34400 -config=/root/.xteve/
