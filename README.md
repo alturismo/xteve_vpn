@@ -1,7 +1,7 @@
 xteve
 xteve, in docker with ovpn
 
-docker runs in host mode
+docker runs in bridge mode
 access xteve webui ip:34400/web/
 
 mounts to use as sample
