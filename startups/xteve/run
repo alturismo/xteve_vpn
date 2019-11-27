@@ -2,7 +2,7 @@
 
 ### Start xteve
 
-sleep 10
+sleep 20
 
 # so return traffic that went through VPN works
 
