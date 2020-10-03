@@ -16,6 +16,7 @@ docker run -d \
   --log-opt max-file=3 \
   -e TZ="Europe/Berlin" \
   -v /mnt/user/appdata/xteve/:/root/.xteve:rw \
+  -v /mnt/user/appdata/xteve/config/:/config:rw \
   -v /tmp/xteve/:/tmp/xteve:rw \
   alturismo/xteve_vpn
 
