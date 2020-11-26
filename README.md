@@ -20,6 +20,9 @@ docker run -d \
   -v /tmp/xteve/:/tmp/xteve:rw \
   alturismo/xteve_vpn
 
+about setup variables for the ovpn part, take it best from here
+https://github.com/alturismo/ovpn_privoxy
+
 xteve - iptv and epg proxy server for plex, emby, etc ... thanks to @marmei
 website: http://xteve.de
 Discord: https://discordapp.com/channels/465222357754314767/465222357754314773
